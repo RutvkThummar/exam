@@ -1,0 +1,37 @@
+
+
+# Purpose
+The purpose of this document is to specify the requirements for an online ticket reservation system, which allows users to tickit book  for  airline, buy ticits , train ticits.
+
+# Scope
+The online ticket reservation system will provide a user-friendly interface for customers to browse events, select seats, and make reservations. 
+The system will also include  interface to manage events, venues, and ticket availability.
+
+
+# Functional Requirements
+1 User Registration
+
+The system will provide  user registration feature to allow new users to create an account.
+such as 
+Users shall provide their personal information (ex., name, email, contact number) during registration.
+
+2 Event Management
+
+The system will provide  interface to manage events.
+Administrators will be able to add,delete or update information online as well as offline  like --> event name, date, time, place.
+Events will be categorized into different types e.g. airline,train,bus...etc
+
+3 Ticket Availability
+
+System will display the availability of tickets for  events.
+Users will be able to view the seating structure and select seats.
+The system should be prevent to double seats booking.
+
+4 Booking and Payment
+
+Users will be able to select the number of tickets and  done through payment.
+The system will provide secure payment options e.x--> credit card, online banking.
+and system will generate uniqe no. of ticket 
+
+
+

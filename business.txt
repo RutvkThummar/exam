@@ -1,0 +1,58 @@
+
+
+
+Users will be able to view their booking history and print tickets.
+
+# Non-functional Requirements
+1 Performance
+
+system will be abale to good performance for all customer and gives concurant performance.
+
+2 Security
+
+User passwords shoud br  secure stored using encryption technology.also 
+Payment transactions will be on secure paltform (HTTPS).
+
+3 Usability
+
+The user interface will be intractive  and easy to access.
+if any eror then give msg perfetly for batter understanding of customer.  
+our system will be able to support to multiple lang.
+
+### Use Cases
+1 User Registration  Case
+
+Description: Allow  to users for create a new account .
+Actors: User
+Basic Flow:
+	User selects the registration option.
+	User enters personal information.
+	User submits the registration form.
+	System validates the information and creates a new account.
+
+2 Event Management  Case
+
+Description: Allow administrators to manage events.
+Actors: Administrator
+Preconditions: Administrator authentication
+Basic Flow:
+	Administrator logs in to the administrative interface.
+	Administrator selects the event management option.
+	Administrator adds, updates, or deletes event details.
+
+
+
+##Entities:
+
+User (Uid, uname, email, Mno)
+Event (eid, ename, date, time, vid)
+Venue (vid, vname, location)
+Ticket (tid, eid, sno, status, uid)
+
+
+#Relationships:
+
+User-Event (Many-to-Many)
+Event-Venue (Many-to-One)
+Ticket-Event (One-to-Many)
+Ticket-User (One-to-One)
